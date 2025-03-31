@@ -2,4 +2,4 @@
 desarrollo trabajo practico
 
 ## lista de integrantes del grupo 15
-1. barbara gerrard
+1. Gerrard, Barbara - usuario: Barbara Gerrard 
