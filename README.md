@@ -10,3 +10,5 @@ desarrollo trabajo practico
 ### trabajo practico numero 1n hecho por:
 index, form: Gerrard Barbara y Maidana Agustin
 museo: 
+contactos.html: Cabana Sofia
+style_contact.css: Cabana Sofia
