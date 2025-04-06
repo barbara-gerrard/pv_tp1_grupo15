@@ -1,6 +1,6 @@
 /* Header */
 #encabezado {
-    background-color: #f8c8dc; 
+    background-color: rgb(250, 208, 199); 
     text-align: center;
     padding: 20px;
 }
@@ -30,10 +30,37 @@
 
 /* Article */
 .contacto-extra {
-    background-color: #f8c8dc;
+    background-color: rgb(250, 208, 199);
     padding: 20px;
     margin-top: 30px;
 }
+
+.galeria1 {
+    float: right;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+.galeria2 {
+    float: left;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+.galeria1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.galeria2 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
 
 /* Footer */
 #pie {
