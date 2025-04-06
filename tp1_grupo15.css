@@ -1,0 +1,25 @@
+* { 
+    font-size: 100%;  font-family: Georgia, 'Times New Roman', Times, serif;  
+text-align: center;margin: auto;
+}
+h1 { margin: 0% 10% 0% 10% ; border-radius: 0% 10% 0% 10%;
+    color: rgb(174, 90, 90); background-color: rgb(250, 208, 199); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    ; font-size: 300%;
+}
+p {font-size: 170%; font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h2{
+    color: rgb(174, 90, 90); font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 170%;
+}
+#textocultura{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section {
+    background-color: rgb(250, 208, 199);
+    padding: 10px
+}
+#enlace1{
+    color: rgb(174, 90, 90); font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 100%;}
