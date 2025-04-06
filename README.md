@@ -7,3 +7,6 @@ desarrollo trabajo practico
 3. Flores, Juan Carlos Ariel - usuario : JuanF420
 4. Cabana, Sofia Guadalupe - usuario : sofii3
 5. Chavarria, Marcos Alejandro Nicolas - usuario: NiVerenC
+### trabajo practico numero 1n hecho por:
+index, form: Gerrard Barbara y Maidana Agustin
+museo: 
