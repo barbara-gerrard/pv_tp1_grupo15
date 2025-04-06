@@ -2,10 +2,72 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto - Haití</title>
+
+    <!--asocionamos el archivo creado con nuestro archivo css "style_contact.css"-->
+    <link rel="stylesheet" href="/pv_tp1_grupo15/css/style_contact.css">
+
 </head>
 <body>
-    
+<!-- Dentro del body divimos el sitio en una estructura basica de una pagina html-->
+
+ <!-- ENCABEZADO _________________________________________________________________________________________________-->
+
+    <header id="encabezado"> <!-- Utilizamos Clases e indentificadores "id" para aplicar selectores en css-->
+        <h1>Nos interesa tu opinión y tu experiencia</h1>
+        <p>PORFAVOR DEJANOS TU OPINIO O CONSULTA</p>
+    </header>
+<!--______________________________________________________________________________________________________________-->
+
+<!-- BARRA DE NAVEGACION O MENU __________________________________________________________________________________-->
+
+    <nav class="navegacion"><!--A Diferencia de "Encabezado" trabajamos con "class" para aplicar selectores en css-->
+        <ul>
+            <!--creamos una lista desordenada, con un vinculo a los archivos "index.html, museos.html y contactos.html"-->
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="museos.html">Museos</a></li>
+            <li><a href="contactos.html">Contacto</a></li>
+            
+            <!-- "a" Se utiliza para crear enlaces a otros documentos o recursos, ya sea dentro del mismo sitio web o en sitios web externos.-->
+        </ul>
+    </nav>
+    <!--__________________________________________________________________________________________________________-->
+
+    <!-- FORMULARIO ______________________________________________________________________________________________-->
+
+    <section id="formulario-contacto">
+        <!--creamos un fromularion con la etiqueta "form" -->
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post" class="formulario">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="mensaje">Mensaje o consulta:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea><br><br>
+
+            <!-- Aplicamos un botton interactivo-->
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <!--_________________________________________________________________________________________________________-->
+
+    <!-- Seccion ARTICLE _________________________________________________________________________________________-->
+    <article class="contacto-extra">
+        <h2>Otra forma de contactarnos</h2>
+        <p>Teléfono: +509 1234 5678</p>
+        <p>Email: contacto@haitiinfo.org</p>
+        <p>Facebook: <a href="#">facebook.com/haitiinfo</a></p>
+    </article>
+    <!--_____________________________________________________________________________________________________________-->
+
+    <!--PIE DE PAGINA________________________________________________________________________________________________-->
+    <footer id="pie">
+        <p>Toda esta información fue recopilada de Wikipedia y diversas páginas web, con el fin de darle al lector un resumen del país.</p>
+    </footer>
+    <!--_________________________________________________________________________________________________________________-->
+
 </body>
 </html>

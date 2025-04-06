@@ -1,0 +1,45 @@
+/* Header */
+#encabezado {
+    background-color: #f8c8dc; 
+    text-align: center;
+    padding: 20px;
+}
+
+/* Nav */
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navegacion li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Formulario */
+#formulario-contacto {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.formulario {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Article */
+.contacto-extra {
+    background-color: #f8c8dc;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Footer */
+#pie {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
