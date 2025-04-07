@@ -51,7 +51,7 @@ body {
 
 /* SECCION MUSEOS__________________________________________________________________________________ */
 .museo {
-    display: flex;
+    display: flex;/*aplico flex para manipular section principalmente para poner la imagen al lado*/
     padding: 20px;
     background-color: #ffffff;
     margin: 20px auto;
@@ -60,14 +60,10 @@ body {
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
 
-.museo > div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.museo div {
+    direction: column;
 }
-.museo > aside {
-    width: 150%;
-}
+
 
 
 /* Contenido del museo */
@@ -85,33 +81,31 @@ body {
     margin-top: 10px;
 }
 
-/* Aside */
+/* Aside_imagen */
 .galeria {
     background-color: #f0faff;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
+    padding: 10px;/*espacio en margen*/
+    border-radius: 10px;/*redondeamos las esquinas*/
+    justify-content: center;/*centramos la imagen*/
 }
+/*_____________________________________________________________________________________________________________________*/
 
-/* Article de referencias */
+/* Article de referencias_____________________________________________________________________________________________ */
 .referencias {
-    background-color: #e8faff;
+    background-color: #e8faff;/*color de fondo*/
     padding: 20px;
     margin: 20px auto;
     width: 90%;
-    border-radius: 10px;
-    font-style: italic;
+    border-radius: 10px; /*redondeamos las esquinas*/
+    font-style: italic;/*estilo de la letra*/
 }
+/*_____________________________________________________________________________________________________________________*/
 
-/* Footer */
+/* Footer ____________________________________________________________________________________________________________*/
 #pie {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9em;
+    background-color: #000; /*Aplicamos un fondo negro*/
+    color: #fff;/*color de letra*/
+    text-align: center;/*lo alineamos en el centro*/
+    padding: 15px; /*espacio en margen*/
+    font-size: 0.9em;/*tamaño del texto*/
 }
