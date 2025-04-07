@@ -83,7 +83,7 @@ body {
 
 /* Aside_imagen */
 .galeria {
-    background-color: #f0faff;
+    background-color: #a2c6cc;
     padding: 10px;/*espacio en margen*/
     border-radius: 10px;/*redondeamos las esquinas*/
     justify-content: center;/*centramos la imagen*/
@@ -98,6 +98,9 @@ body {
     width: 90%;
     border-radius: 10px; /*redondeamos las esquinas*/
     font-style: italic;/*estilo de la letra*/
+}
+.referencias p{
+    text-align: center;
 }
 /*_____________________________________________________________________________________________________________________*/
 
