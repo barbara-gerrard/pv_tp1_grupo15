@@ -1,0 +1,117 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+}
+
+/* Header _______________________________________________________________________________________*/
+#encabezado {
+    background-color: #b3e0f2;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+#encabezado h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#encabezado p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+/*_________________________________________________________________________________________________*/
+
+/* Nav ____________________________________________________________________________________________*/
+.navegacion {
+    background-color: #e1f3fa; 
+    text-align: center;
+    padding: 15px 0;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navegacion a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #000;
+    font-weight: bold;
+}
+/*_________________________________________________________________________________________________*/
+
+/* SECCION MUSEOS__________________________________________________________________________________ */
+.museo {
+    display: flex;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.museo > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.museo > aside {
+    width: 150%;
+}
+
+
+/* Contenido del museo */
+.museo h2 {
+    color: #0077a6; /*color del titulo del museo*/
+}
+
+.museo ul {
+    padding-left: 20px; /*tamaño de letra de la lista*/
+}
+
+.museo img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Aside */
+.galeria {
+    background-color: #f0faff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Article de referencias */
+.referencias {
+    background-color: #e8faff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+/* Footer */
+#pie {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
