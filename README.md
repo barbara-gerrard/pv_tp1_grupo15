@@ -9,5 +9,5 @@ desarrollo trabajo practico
 5. Chavarria, Marcos Alejandro Nicolas - usuario: NiVerenC
 ### trabajo practico numero 1n hecho por:
 index, form: Gerrard Barbara y Maidana Agustin
-museo: 
-
+Html de museo y Contacto: Cabana Sofia y Nico Chavarria
+Css de museo y contacto: Cabana Sofia y Nico Chavarria
