@@ -1,20 +1,50 @@
-<html lang="es"><head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
-    <title>Formulario de Contacto</title>
-    <link rel="stylesheet" href="/pv_tp1_grupo15/css/tp1form_grupo15.css">
+    <title>Contacto - Haití</title>
 </head>
 <body>
-    <div class="container-form">
-        <div class="info-form">
-            <h2>Contáctanos</h2>
-            <p>nos alegra mucho que quieras visitar este pais, dejanos tus datos para comunicarnos contigo y que tu estadia en este pais sea inolvidable</p>
-            <a href="#"> +543884965167 </a>
-            <a href="#"> gerrardbarbarasy@gmail.com</a>
-        <p id=inf> haiti te espera </p>
-        </div>
-        <form action="#" autocomplete="off">
-            <input type="text" name="nombre" placeholder="Tu Nombre">
-            <input type="email" name="email" placeholder="Tu Email">
-            <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
-            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+
+    <header>
+        <h1>Nos interesa tu opinión y tu experiencia</h1>
+        <p>Por favor, déjanos tus consultas</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="museos.html">Museos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="mensaje">Mensaje o consulta:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea><br><br>
+
+            <button type="submit">Enviar</button>
         </form>
+    </section>
+
+    <article>
+        <h2>Otra forma de contactarnos</h2>
+        <p>Teléfono: +509 1234 5678</p>
+        <p>Email: contacto@haitiinfo.org</p>
+        <p>Facebook: <a href="#">facebook.com/haitiinfo</a></p>
+    </article>
+
+    <footer>
+        <p>Toda esta información fue recopilada de Wikipedia y diversas páginas web, con el fin de darle al lector un resumen del país.</p>
+    </footer>
+
+</body>
+</html>
