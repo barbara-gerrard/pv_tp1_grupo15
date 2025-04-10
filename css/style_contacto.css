@@ -5,6 +5,34 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+header{
+    background-color: #00cfd6;
+    padding: 20px 0;
+}
+
+body{
+    background-color: rgb(196, 196, 196);
+    text-align: center;
+}
+
+nav{
+    background-color: #00cfd6;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+article{
+    text-align: left;
+}
+footer{
+    text-align: left;
+}
+
 p{
     font-size: 17px;
     line-height: 1.6;
@@ -17,7 +45,7 @@ a{
     text-decoration: none;
     width: 100%;
     margin-bottom: 15px;
-    color: rgb(224, 166, 166);
+    color: rgb(131, 87, 87);
     font-weight: 700;
 }
 #inf{
@@ -26,7 +54,7 @@ a{
     text-decoration: none;
     width: 100%;
     margin-bottom: 15px;
-    color: rgb(224, 166, 166);
+    color: rgb(131, 87, 87);
     font-weight: 700; 
 }
 textarea{
@@ -47,7 +75,7 @@ textarea{
     font-size: 16px;
     border: none;
     outline: 0px;
-    background: rgb(231, 189, 169);
+    background: rgb(131, 87, 87);
     color: rgb(255, 255, 255);
     border-radius: 3px;
     cursor: pointer;
